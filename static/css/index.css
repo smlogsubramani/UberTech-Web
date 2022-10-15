@@ -222,3 +222,32 @@ body{
 	background-color: red;
 }
 
+/* Triangles */
+.shape img{
+	position: absolute;
+	width: 100%;
+	/* z-index: -9; */
+}
+.shape .triangle1{
+    right: -65px;
+    top: 46px;
+    width: 250px;
+    opacity: .5;
+    transform-origin: center;
+}
+.shape .triangle2{
+    left: -30px;
+    bottom: 101px;
+    width: 335px;
+    opacity: .5;
+    transform-origin: center;
+}
+
+
+.shape .triangle3{
+    top: 128px;
+    left: 230px;
+    width: 250px;
+    opacity: .4;
+    transform-origin: center;
+}
