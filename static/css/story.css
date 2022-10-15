@@ -1,0 +1,40 @@
+
+/*--my Story--*/
+.mystory-box{
+	color: whitesmoke;
+	padding-left: 15%;
+	padding-right: 15%;
+	margin-top: 90px;
+}
+
+
+.mystory-title h1{
+	font-family:'Dosis', sans-serif;
+	font-size: 40px;
+	font-weight: 600;
+	text-align: start;
+	margin-top: 65px;
+	margin-bottom: 27px;
+	word-spacing: 1.0px;
+	letter-spacing: 0.4px;
+	text-transform: none;
+}
+
+.mystory-links, .mystory-links a{
+	font-size: 22px;
+	color: white;
+}
+.mystory-links i{
+	margin: 8px;
+}
+
+@media only screen and (max-width:769px){
+	.scrolldown{
+		bottom: 610px;
+	}
+}
+@media only screen and (max-width:425px){
+	.scrolldown{
+		bottom: 680px;
+	}
+}
